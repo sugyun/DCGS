@@ -1,0 +1,10 @@
+x01 = not x06
+x02 = not x10
+x03 = not x08 or not x07
+x04 = not x10
+x05 = x10 or not x02
+x06 =  ( x09 and x03 and x06 and x07 )  or  ( x03 and x04 and x06 and x07 ) 
+x07 = x07 or x09 or  ( x04 and not x01 ) 
+x08 = not x05 and not x06
+x09 = not x07
+x10 =  ( x05 and x10 )  or  ( x05 and not x02 ) 
