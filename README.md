@@ -4,7 +4,6 @@ Find control sets for global stabilization of a target attractor by finding opti
 Please check "example.ipynb".
 # Requirements
 - python v3.x
-- PyBoolNet (https://github.com/hklarner/PyBoolNet)
 - networkx v2.5
 - sympy v1.4
 - numpy v2.0
