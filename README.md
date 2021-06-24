@@ -12,6 +12,7 @@ Find control sets for global stabilization of a target attractor by finding opti
 - pip install networkx==2.5
 - conda install -c anaconda sympy
 - pip install tarjan
+
 Now clone this github repository and use it!
 
 ##### * We modified and used CANA and PyBoolNet Python package. 
