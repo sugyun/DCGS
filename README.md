@@ -1,6 +1,6 @@
 # Divide and conquer algorithm for global stabilization (DCGS)
 Find control sets for global stabilization of a target attractor by finding optimal FVS subsets (canalizing sets) using canalizing effect without considering monostability in each SCC and then combining them.
-### Please check "Tutorial_example.ipynb".
+##### Please check "Tutorial_example.ipynb".
 
 # Requirements
 - python v3.x
@@ -14,7 +14,7 @@ Find control sets for global stabilization of a target attractor by finding opti
 - pip install tarjan
 Now clone this github repository and use it!
 
-### We modified and used CANA and PyBoolNet Python package. 
+##### * We modified and used CANA and PyBoolNet Python package. 
 
 CANA: https://github.com/rionbr/CANA
 
