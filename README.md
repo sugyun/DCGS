@@ -7,3 +7,9 @@ Please check "example.ipynb".
 - networkx v2.5
 - sympy v1.4
 - numpy v2.0
+
+### We modified and used CANA and PyBoolNet Python package. 
+
+CANA: https://github.com/rionbr/CANA
+
+PyBoolNet: https://github.com/hklarner/PyBoolNet
