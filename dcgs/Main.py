@@ -7,10 +7,10 @@ Created on Thu Mar 12 13:29:38 2020
 import itertools
 import numpy as np
 
-import sccTofvs
-import canalFunction
-from booleanlogic_preprocessing import modeltext2nummodeltext
-from booleanlogic_preprocessing import get_interaction_network
+import dcgs.sccTofvs as sccTofvs
+import dcgs.canalFunction as canalFunction
+from dcgs.booleanlogic_preprocessing import modeltext2nummodeltext
+from dcgs.booleanlogic_preprocessing import get_interaction_network
 
 def algorithm(booleanlogic, targetattractor):
     # initial setting

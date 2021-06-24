@@ -4,8 +4,8 @@ Created on Fri Dec  4 11:00:00 2020
 
 @author: ansu
 """
-from replace_str import replaceMultiple
-from replace_str import replaceMultiple2
+from dcgs.replace_str import replaceMultiple
+from dcgs.replace_str import replaceMultiple2
 import re
 import numpy as np
 import networkx as nx
@@ -27,7 +27,10 @@ def modeltext2nummodeltext(modeltext):
         new_d[k] = node2num[k]
     node2num = new_d.copy()
     for node in node2num:
-        modeltext = replaceMultiple2(modeltext, [node],['n'+'0'*(int(np.log10(len(node2num)))+1-len(str(node2num[node])))+str(node2num[node])])
+        modeltext = replaceMultiple2(modeltext, [node+' ='],['n'+'0'*(int(np.log10(len(node2num)))+1-len(str(node2num[node])))+str(node2num[node])+' ='])
+        modeltext = replaceMultiple2(modeltext, [' '+node+' '],[' '+'n'+'0'*(int(np.log10(len(node2num)))+1-len(str(node2num[node])))+str(node2num[node])+' '])
+        modeltext = replaceMultiple2(modeltext, [' '+node+'\n'],[' '+'n'+'0'*(int(np.log10(len(node2num)))+1-len(str(node2num[node])))+str(node2num[node])+'\n'])
+
     return(modeltext, node2num, num2node)
 
 # get pyhsical interaction network from boolean logic text

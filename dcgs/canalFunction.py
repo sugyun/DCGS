@@ -1,6 +1,6 @@
 import copy
 from sympy import sympify, true, false, Or
-from replace_str import replaceMultiple2
+from dcgs.replace_str import replaceMultiple2
 def main(state, booleanlogic):
     step = True
     STATE = state.copy()

@@ -7,8 +7,9 @@ Created on Fri Jul 10 09:29:48 2020
 
 import networkx as nx
 import matplotlib.pyplot as plt
-import fvs # code from https://github.com/rionbr/CANA
 import time
+
+import dcgs.fvs as fvs# code from https://github.com/rionbr/CANA
 
 def scc2fvs_combine(DG, thres=20):
     DG2 = DG.copy()
