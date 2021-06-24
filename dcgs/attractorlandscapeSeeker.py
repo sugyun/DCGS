@@ -9,7 +9,7 @@ import networkx as nx
 from itertools import product
 from dcgs import canalFunction
 from dcgs.replace_str import replaceMultiple2
-import dcgs.PyBoolNet as PyBoolNet # code from https://github.com/hklarner/PyBoolNet
+import PyBoolNet as PyBoolNet # code from https://github.com/hklarner/PyBoolNet
 # get canalized states by using canalizing effect of fixed FVS
 def get_canalized_states(booleanlogic, dgraph, nodeList, inputNodeState, minimal_fvs):
     canalized_states = []
