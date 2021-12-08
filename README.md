@@ -15,7 +15,7 @@ Find control sets for global stabilization of a target point attractor by findin
 
 Now clone this github repository and use it!
 
-##### * We modified and used CANA and PyBoolNet Python package. 
+##### * We modified and used codes in CANA and PyBoolNet Python package. 
 
 CANA: https://github.com/rionbr/CANA
 
