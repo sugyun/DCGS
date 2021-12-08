@@ -1,5 +1,5 @@
-# Divide and conquer algorithm for global stabilization (DCGS)
-Find control sets for global stabilization of a target attractor by finding optimal FVS subsets (canalizing sets) using canalizing effect without considering monostability in each SCC and then combining them.
+# Divide and conquer framework for global stabilization (DCGS)
+Find control sets for global stabilization of a target point attractor by finding optimal FVS subsets (canalizing sets) based on canalizing effect without considering monostability in each SCC and then combining them.
 ##### Please check "Tutorial_example.ipynb".
 
 # Requirements
