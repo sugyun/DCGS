@@ -20,3 +20,6 @@ Now clone this github repository and use it!
 CANA: https://github.com/rionbr/CANA
 
 PyBoolNet: https://github.com/hklarner/PyBoolNet
+
+
+# References
