@@ -23,3 +23,6 @@ PyBoolNet: https://github.com/hklarner/PyBoolNet
 
 
 # References
+
+An, S., Jang, S. Y., Park, S. M., Lee, C. K., Kim, H. M., & Cho, K. H. (2023). Global stabilizing control of large-scale biomolecular regulatory networks. Bioinformatics, 39(1), btad045.
+https://academic.oup.com/bioinformatics/article/39/1/btad045/6998201
